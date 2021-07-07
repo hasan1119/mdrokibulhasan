@@ -110,6 +110,7 @@ button:focus {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -121,6 +122,7 @@ button:focus {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -204,8 +206,8 @@ button:focus {
     border-radius: 30px;
 }
 
-.btn-custom{
-    border:1px solid;
+.btn-custom {
+    border: 1px solid;
 }
 
 .btn-custom:hover,
@@ -216,7 +218,7 @@ button:focus {
 .btn-custom:active,
 .btn-custom:focus,
 .btn-custom:hover,
-.open > .dropdown-toggle.btn-custom {
+.open>.dropdown-toggle.btn-custom {
     color: #f3f3f3;
 }
 
@@ -232,7 +234,7 @@ button:focus {
 .btn-outline-custom:active,
 .btn-outline-custom:focus,
 .btn-outline-custom:hover,
-.open > .dropdown-toggle.btn-outline-custom {
+.open>.dropdown-toggle.btn-outline-custom {
     color: #000;
     background-color: #fff;
     border-color: #fff;
@@ -364,8 +366,8 @@ button:focus {
 
 .scroll_down i {
     position: relative;
-    -webkit-animation: bounce 2s infinite; 
-    animation: bounce 2s infinite; 
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
     height: 44px;
     width: 28px;
     line-height: 54px;
@@ -413,13 +415,13 @@ button:focus {
 /*DEMO 16*/
 
 .wave_sec {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 .wave_sec svg {
-  height: 180px;
+    height: 180px;
 }
 
 /*===========================
@@ -618,7 +620,7 @@ button:focus {
         9.CONTACT
 ===========================*/
 
-.blog_color{
+.blog_color {
     background-color: #2e3135;
 }
 
@@ -707,43 +709,54 @@ button:focus {
         background-color: #fff !important;
         padding: 10px 0px !important;
     }
+
     .custom-nav .container {
         width: 85%;
     }
+
     .custom-nav .navbar-toggler {
         color: #000;
         font-size: 32px;
         border: none;
     }
+
     .custom-nav .logo .logo-dark {
         display: inline-block;
     }
+
     .custom-nav .navbar-nav li a {
         color: rgba(0, 0, 0, 0.6) !important;
     }
+
     .custom-nav .logo .logo-light {
         display: none;
     }
+
     .h-100vh {
         height: auto;
         padding: 120px 0 140px;
     }
+
     .header-bg-img {
         clip-path: none;
         padding: 120px 0 140px;
-    }        
-    .wave-home.h-100vh{
+    }
+
+    .wave-home.h-100vh {
         height: auto;
         padding: 120px 0 190px;
     }
+
     .custom-nav .navbar-nav li a {
         margin: 0 0px;
         line-height: 15px;
     }
+
     .header-name {
         font-size: 38px;
     }
-    .clip-home{
+
+    .clip-home {
         clip-path: none;
     }
 }
@@ -762,7 +775,7 @@ button:focus {
 
 #color-switcher {
     background: none repeat scroll 0 0 #ffff;
-    box-shadow:0px 0px 14px 0 rgba(0, 0, 0, .08);
+    box-shadow: 0px 0px 14px 0 rgba(0, 0, 0, .08);
     left: -189px;
     position: fixed;
     top: 17%;
@@ -847,7 +860,7 @@ ul.pattern .color5 {
 }
 
 ul.pattern .color6 {
-    background:#f2b31a;
+    background: #f2b31a;
 }
 
 @media only screen and (max-width:479px) {
@@ -863,4 +876,58 @@ p.client_review.font-italic.mt-4.text-center.text-muted img {
     border-radius: 5px;
     display: block;
     width: 100%;
+}
+
+.footer-social-icons i {
+    font-size: 25px;
+}
+
+.footer-social-icons i:last-child {
+    transform: translateY(3px);
+}
+
+.footer-social-icons li:nth-child(1):hover a {
+    background: #3b5998;
+}
+
+.footer-social-icons li:nth-child(2):hover a {
+    background: #0e76a8;
+}
+
+.footer-social-icons li:nth-child(3):hover a {
+    background: #E60023;
+}
+
+.footer-social-icons li:nth-child(4):hover a {
+    background: #00acee;
+}
+
+.img_blog {
+    overflow: hidden;
+}
+
+.img_blog img {
+    transition: all 0.5s;
+}
+
+.img_blog img:hover {
+    transform: scale(1.2);
+}
+
+.btn-round {
+    background: #e65f78 !important;
+    border: 1px solid #e65f78;
+}
+
+.btn-round:hover {
+    color: white;
+    background: transparent !important;
+    border: 1px solid #e65f78;
+}
+
+.scroll_down i{
+     border: 2px solid #e65f78;
+}
+.scroll_down i:after{
+    background: #e65f78;
 }
