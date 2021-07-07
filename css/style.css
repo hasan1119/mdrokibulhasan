@@ -925,9 +925,49 @@ p.client_review.font-italic.mt-4.text-center.text-muted img {
     border: 1px solid #e65f78;
 }
 
-.scroll_down i{
-     border: 2px solid #e65f78;
+.scroll_down i {
+    border: 2px solid #e65f78;
 }
-.scroll_down i:after{
+
+.scroll_down i:after {
     background: #e65f78;
+}
+
+.work_item {}
+
+#visit-wrapper {
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.source-code,
+.live-site {
+    display: inline-block;
+    margin: 0 5px;
+    color: white;
+    padding: 0;
+    background: #e65f78;
+    border: 1px solid #e65f78;
+    border-radius: 5px;
+    padding: 5px 0;
+    transition: .5s;
+    width: 110px;
+
+}
+
+#visit-wrapper a:hover {
+    background: #80808080;
+    color: white;
+
+}
+
+.img-zoom {
+    color: white;
+    transition: .5s;
+}
+
+.img-zoom:hover {
+    color: #e65f78;
 }
