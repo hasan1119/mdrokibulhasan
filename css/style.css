@@ -23,7 +23,7 @@
     12.RESPONSIVE
 ************************/
 
-@import url('../../../css.css');
+
 
 /*======================
         1.BASIC
@@ -323,7 +323,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: url(../images/header-bg3.jpg);
+    background-image: linear-gradient(#000000cb,#000000cb) , url(../images/header-bg3.jpg);
     position: relative;
     background-size: cover;
     background-position: center center;
