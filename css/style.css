@@ -296,7 +296,7 @@ button:focus {
 =============================*/
 
 .header-bg-img {
-    background-image: linear-gradient(#00000075, #00000075), url(../images/header-bg3.jpg);
+    background-image: linear-gradient(#00000075, #00000075), url(../images/home-bg.png);
     position: relative;
     background-size: cover;
     background-position: center center;
