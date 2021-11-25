@@ -875,6 +875,9 @@ p.client_review.font-italic.mt-4.text-center.text-muted img {
 .footer-social-icons li:nth-child(4):hover a {
     background: #00acee;
 }
+.footer-social-icons li:nth-child(5):hover a {
+    background: #E60023;
+}
 
 .img_blog {
     overflow: hidden;
